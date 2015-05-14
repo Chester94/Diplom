@@ -1,24 +1,132 @@
-\documentclass[14pt,a4paper]{extbook}
+\documentclass[a4paper, 14pt]{article}
+\usepackage[english, russian]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{fullpage}
+\usepackage{indentfirst} % Первый абзац в разделе тоже с красной строки
+\usepackage{cmap} % для кодировки шрифтов в pdf (чтобы не было крокозябры при копировании из pdf )
+\usepackage{graphicx} % для вставки картинок
+\graphicspath{{img/}} % Путь к папке с картинками
+\sloppy % Включение переноса слов в тексте
 
-\usepackage[T2A]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage[russian]{babel}
-\usepackage{graphicx}
-\usepackage{amsfonts,amssymb,amscd,amsmath}
-\usepackage[left=2.5cm, right=2.5cm, top=2.7cm, bottom=2cm]{geometry}
+\title{Фреймворк для конечно-разностного моделирования диффузионных задач на гибридных вычислительных кластерах}
+\author{Фролов Даниил Александрович}
 
+% Для красивой вставки исходного программного кода 
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+% Параметры раскрски исходного кода программы 
+\lstset{ %
+	language = Java,
+	extendedchars=\true, %Чтобы русские буквы в комментариях были
+	%inputencoding=cp1251,
+	%commentstyle=\itshape,
+	%stringstyle=\bf,
+  backgroundcolor=\color{white},   % choose the background color
+  basicstyle=\footnotesize,        % size of fonts used for the code
+  %basicstyle=\ttfamily\fontsize{11pt}{11pt}\selectfont,
+  breaklines=true,                 % automatic line breaking only at whitespace
+  captionpos=b,                    % sets the caption-position to bottom
+  commentstyle=\color{mygreen},    % comment style
+  escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+  keywordstyle=\color{blue},       % keyword style
+  stringstyle=\color{mymauve},     % string literal style
+}
+
+\usepackage{hyperref} % Для добавления ссылок в тесте
+
+% Настройка цветов для ссылок
+\hypersetup{
+colorlinks = true,
+linkcolor = black,
+pagecolor = black,
+urlcolor = blue, 
+citecolor = black
+}
+
+% Математика
+\usepackage{amssymb} % For use "mathbb" function
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{mathrsfs}
+\newcommand{\La}{\mathscr{L}} % Функция Лагранжа
+\newcommand{\ls}{{ℓ}} % Красивая l, чтобы легче было отличить от i, 1 b других палок
+\providecommand{\norm}[1]{\lVert#1\rVert} % Норма вектора : ||w||
+\newcommand{\dpt}[1]{\left\langle#1\right\rangle} % dot product using brackets
+\newcommand{\brackets}[1]{\left(#1\right)} % Обернуть скобками автоматического размера
+%\newcommand{\dpts}[2]{#2 \langle#1 #2 \rangle} % dot product using brackets with manual size
+\newcommand{\R}{\mathbb{R}} % beautiful R for R^n labels
+\newcommand{\il}{i = 1, \ldots, \ls} % writes i = 1, ..., l
+\newcommand{\ili}{\quad i = 1, \ldots, \ls} % writes i = 1, ..., l with indent in begin
+\newcommand{\sumil}{\sum_{i=1}^{\ls}} % Сумма по i, которая изменяется от 1 до l
+\newcommand{\minl}{\min\limits} % min with limits under "min" label
+\newcommand{\maxl}{\max\limits} % max with limits under "max" label
+
+% Окружение для теорем, определений и т.д.
+\theoremstyle{definition}
+\newtheorem{definition}{Определение}
+\newtheorem{theorem}{Теорема}
+\newtheorem{example}{Пример}
+
+% Поправить стиль отрисовки формул (особенно актуально для сумм https://ru.sharelatex.com/learn/Display_style_in_math_mode)
+\everymath{\displaystyle}
+
+%\bibliographystyle{unsrt} % упорядочить список использованной литературы по порядку упоминания их в тексте
+\bibliographystyle{utf8gost705u}
+%\bibliographystyle{utf8gost71u}
+
+\usepackage[labelfont=bf, labelsep=space]{caption} % Делаем надписи "Рис.1" под рисунками жирными и без двоеточия.
+\usepackage[top=20mm, bottom=20mm, left=30mm, right=20mm, nohead, nofoot]{geometry} % Размер полей у старницы
+\setlength{\parindent}{1.25cm} % Размер интервала для абзацев 
 \usepackage{setspace}
+\singlespacing % одинарный интервал
 
-\singlespacing
+\usepackage{caption} % подписи к рисункам в русской типографской традиции
+\DeclareCaptionFormat{GOSTtable}{#2#1\\#3}
+\DeclareCaptionLabelSeparator{fill}{\hfill}
+\DeclareCaptionLabelFormat{fullparents}{\bothIfFirst{#1}{~}#2}
+\captionsetup[table]{
+     format=GOSTtable,
+     %font={footnotesize},
+     labelformat=fullparents,
+     labelsep=fill,
+     labelfont=normal,
+     textfont=bf,
+     justification=centering,
+     singlelinecheck=false
+     }
 
 \begin{document}
-
-\begin{center}
-{\Large Фреймворк для конечно-разностного моделирования диффузионных задач на
-гибридных вычислительных кластерах}
-\end{center}
-
+\fontsize{14}{16pt}\selectfont
+\section*{Введение}
 
 \par Развитие современного общества зачастую ставит перед наукой цели, решение которых требует решения самых разнообразных систем дифференциальных уравнений. В том числе и систем диффузионных уравнений. К таким задачам можно отнести уравнение теплопроводности !!! (примеры других задач). Каждую из них можно решать с помощью численных методов, например, методом Эйлера, многошаговыми методами Рунге-Кутты или методами Дормана-Принца. Подобные вычисления удобно автоматизировать, чтобы в дальнейшем иметь возможность быстро производить расчеты.
-\par Для достижения поставленной цели необходимо решить несколько задач. Среди них разработка инструмента моделирования уравнений (в том числе и уравнений с запаздыванием), которые были бы распределены в одномерных, двумерхных и трехмерных областях. Кроме того, нужна поддержка соверенного оборудования с неоднорожной архитектурой.
+
+
+\section*{Глава 1}
+\par Для автоматизации моделирования конечно-разностных диффузионных систем необходимо решить несколько задач. Среди них разработка инструмента моделирования уравнений (в том числе и уравнений с запаздыванием), которые были бы распределены в одномерных, двумерхных и трехмерных областях. Каждая область может быть представлена неким набором блоков. Для одномерного случая этими блоками являются отрезки, в случае плоскости (двумерный случай) - прямоугольник и, если область является трехмерной - параллелепипеды. каждый из блоков характеризуется своими координатами в пространстве, размерами и информацией о своих границах. Каждая из границ блока может быть составлена из нескольких частей !!! Дирихле Нейман граница с другим блоком. !!!РИСУНКИ Кроме того, нужна поддержка соверенного оборудования , а именно неоднородных систем с иерархической организацией памяти. Также требуется высокий уровень абстракции, такой как автоматическая генерация кода по пользовательским функциям. !!! пользовательский интерфейс.
+
+\par 
 \end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
