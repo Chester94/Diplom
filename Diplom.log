@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.1.26)  19 MAY 2015 11:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.7.2)  19 MAY 2015 19:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Diplom.tex
 (./Diplom.tex
-LaTeX2e <2011/06/27>
-Babel <3.9f> and hyphenation patterns for 78 languages loaded.
-(/usr/share/texmf/tex/latex/base/article.cls
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+(c:/texlive/2014/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texmf/tex/latex/base/size10.clo
+(c:/texlive/2014/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -23,14 +23,14 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texmf/tex/generic/babel/babel.sty
-Package: babel 2013/05/16 v3.9f The Babel package
+(c:/texlive/2014/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/03/24 3.9k The Babel package
 
-(/usr/share/texmf/tex/generic/babel-english/english.ldf
+(c:/texlive/2014/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2012/08/20 v3.3p English support from the babel system
 
-(/usr/share/texmf/tex/generic/babel/babel.def
-File: babel.def 2013/05/16 v3.9f Babel common definitions
+(c:/texlive/2014/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/03/24 3.9k Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 )
@@ -38,8 +38,8 @@ File: babel.def 2013/05/16 v3.9f Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 )
-(/usr/share/texmf/tex/generic/babel-russian/russianb.ldf
-Language: russian 2013/04/13 1.3a Russian support from the babel system
+(c:/texlive/2014/texmf-dist/tex/generic/babel-russian/russianb.ldf
+Language: russian 2014/06/02 1.3c Russian support from the babel system
 
 
 Package babel Warning: No Cyrillic font encoding has been loaded so far.
@@ -47,7 +47,7 @@ Package babel Warning: No Cyrillic font encoding has been loaded so far.
 (babel)                Default `T2A' encoding will be loaded  on input line 111
 .
 
-(/usr/share/texmf/tex/latex/cyrillic/t2aenc.def
+(c:/texlive/2014/texmf-dist/tex/latex/cyrillic/t2aenc.def
 File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
 )
 
@@ -55,18 +55,18 @@ Package babel Warning: No input encoding specified for Russian language on inpu
 t line 146.
 
 Package babel Info: Making " an active character on input line 147.
-)) (/usr/share/texmf/tex/latex/base/inputenc.sty
-Package: inputenc 2008/03/30 v1.1d Input encoding file
+)) (c:/texlive/2014/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2014/04/30 v1.2b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/share/texmf/tex/latex/ucs/utf8x.def
+(c:/texlive/2014/texmf-dist/tex/latex/ucs/utf8x.def
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 ))
-(/usr/share/texmf/tex/latex/ucs/ucs.sty
+(c:/texlive/2014/texmf-dist/tex/latex/ucs/ucs.sty
 Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
 
-(/usr/share/texmf/tex/latex/ucs/data/uni-global.def
+(c:/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-global.def
 File: uni-global.def 2013/05/13 UCS: Unicode global data
 )
 \uc@secondtry=\count88
@@ -74,41 +74,41 @@ File: uni-global.def 2013/05/13 UCS: Unicode global data
 \uc@combtoksb=\toks17
 \uc@temptokena=\toks18
 )
-(/usr/share/texmf/tex/latex/preprint/fullpage.sty
+(c:/texlive/2014/texmf-dist/tex/latex/preprint/fullpage.sty
 Package: fullpage 1999/02/23 1.1 (PWD)
 \FP@margin=\skip43
 )
-(/usr/share/texmf/tex/latex/tools/indentfirst.sty
+(c:/texlive/2014/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(/usr/share/texmf/tex/latex/cmap/cmap.sty
+(c:/texlive/2014/texmf-dist/tex/latex/cmap/cmap.sty
 Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
 )
-(/usr/share/texmf/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(c:/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+(c:/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
 )
-(/usr/share/texmf/tex/latex/graphics/graphics.sty
+(c:/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf/tex/latex/graphics/trig.sty
+(c:/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texmf/tex/latex/latexconfig/graphics.cfg
+(c:/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
+(c:/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/share/texmf/tex/generic/oberdiek/infwarerr.sty
+(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texmf/tex/generic/oberdiek/ltxcmds.sty
+(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count89
@@ -116,7 +116,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-(/usr/share/texmf/tex/latex/listings/listings.sty
+(c:/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count90
 \lst@gtempboxa=\box26
 \lst@token=\toks20
@@ -130,36 +130,36 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \lst@lineno=\count95
 \lst@maxwidth=\dimen109
 
-(/usr/share/texmf/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+(c:/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
 \c@lstnumber=\count96
 \lst@skipnumbers=\count97
 \lst@framebox=\box27
 )
-(/usr/share/texmf/tex/latex/listings/listings.cfg
-File: listings.cfg 2007/02/22 1.4 listings configuration
+(c:/texlive/2014/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2014/03/04 1.5c listings configuration
 ))
-Package: listings 2007/02/22 1.4 (Carsten Heinz)
+Package: listings 2014/03/04 1.5c (Carsten Heinz)
 
-(/usr/share/texmf/tex/latex/graphics/color.sty
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+(c:/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
 
-(/usr/share/texmf/tex/latex/latexconfig/color.cfg
+(c:/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 130.
+Package color Info: Driver file: pdftex.def on input line 137.
 )
-(/usr/share/texmf/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2004/09/05 1.3 listings language file
+(c:/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
-(/usr/share/texmf/tex/latex/hyperref/hyperref.sty
+(c:/texlive/2014/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/share/texmf/tex/generic/oberdiek/hobsub-hyperref.sty
+(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/share/texmf/tex/generic/oberdiek/hobsub-generic.sty
+(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -200,29 +200,29 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texmf/tex/generic/ifxetex/ifxetex.sty
+(c:/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/share/texmf/tex/latex/oberdiek/auxhook.sty
+(c:/texlive/2014/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-(/usr/share/texmf/tex/latex/oberdiek/kvoptions.sty
+(c:/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen110
 \Hy@linkcounter=\count98
 \Hy@pagecounter=\count99
 
-(/usr/share/texmf/tex/latex/hyperref/pd1enc.def
+(c:/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count100
 Package hyperref Info: Option `unicode' set `true' on input line 3411.
 
-(/usr/share/texmf/tex/latex/hyperref/puenc.def
+(c:/texlive/2014/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
 )
-(/usr/share/texmf/tex/latex/latexconfig/hyperref.cfg
+(c:/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -234,9 +234,9 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count101
 
-(/usr/share/texmf/tex/latex/url/url.sty
+(c:/texlive/2014/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen111
@@ -259,12 +259,12 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/share/texmf/tex/latex/hyperref/hpdftex.def
+(c:/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count106
 \c@bookmark@seq@number=\count107
 
-(/usr/share/texmf/tex/latex/oberdiek/rerunfilecheck.sty
+(c:/texlive/2014/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -276,10 +276,10 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 49.
 
 Package hyperref Warning: Option `pagecolor' is not available anymore.
 
-(/usr/share/texmf/tex/latex/amsfonts/amssymb.sty
+(c:/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/share/texmf/tex/latex/amsfonts/amsfonts.sty
+(c:/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks21
 \symAMSa=\mathgroup4
@@ -287,24 +287,24 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+(c:/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip45
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+(c:/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texmf/tex/latex/amsmath/amsgen.sty
+(c:/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks22
 \ex@=\dimen114
 ))
-(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
+(c:/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen115
 )
-(/usr/share/texmf/tex/latex/amsmath/amsopn.sty
+(c:/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count108
@@ -345,7 +345,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/share/texmf/tex/latex/amscls/amsthm.sty
+(c:/texlive/2014/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2004/08/06 v2.20
 \thm@style=\toks27
 \thm@bodyfont=\toks28
@@ -357,7 +357,7 @@ Package: amsthm 2004/08/06 v2.20
 \thm@headsep=\skip50
 \dth@everypar=\toks32
 )
-(/usr/share/texmf/tex/latex/jknapltx/mathrsfs.sty
+(c:/texlive/2014/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup6
 )
@@ -365,10 +365,10 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \c@theorem=\count121
 \c@example=\count122
 
-(/usr/share/texmf/tex/latex/caption/caption.sty
+(c:/texlive/2014/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(/usr/share/texmf/tex/latex/caption/caption3.sty
+(c:/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen123
@@ -383,7 +383,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 )
-(/usr/share/texmf/tex/latex/geometry/geometry.sty
+(c:/texlive/2014/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@cnth=\count124
 \Gm@cntv=\count125
@@ -398,7 +398,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutvoffset=\dimen137
 \Gm@dimlist=\toks33
 )
-(/usr/share/texmf/tex/latex/setspace/setspace.sty
+(c:/texlive/2014/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 
@@ -407,7 +407,7 @@ LaTeX Warning: Unused global option(s):
 
 (./Diplom.aux
 LaTeX Font Info:    Try loading font information for T2A+cmr on input line 21.
- (/usr/share/texmf/tex/latex/cyrillic/t2acmr.fd
+ (c:/texlive/2014/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )<<t2a.cmap>>)
 \openout1 = `Diplom.aux'.
@@ -430,11 +430,10 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
 LaTeX Font Info:    ... okay on input line 103.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 103.
 LaTeX Font Info:    ... okay on input line 103.
-
-(/usr/share/texmf/tex/latex/ucs/ucsencs.def
+ (c:/texlive/2014/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-(/usr/share/texmf/tex/context/base/supp-pdf.mkii
+(c:/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count127
 \scratchdimen=\dimen138
@@ -447,10 +446,10 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 \MPnumerator=\count131
 \makeMPintoPDFobject=\count132
 \everyMPtoPDFconversion=\toks35
-) (/usr/share/texmf/tex/latex/oberdiek/epstopdf-base.sty
+) (c:/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/share/texmf/tex/latex/oberdiek/grfext.sty
+(c:/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
 Package grfext Info: Graphics extension search list:
@@ -458,7 +457,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/share/texmf/tex/latex/latexconfig/epstopdf-sys.cfg
+(c:/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
@@ -466,10 +465,10 @@ e
 \AtBeginShipoutBox=\box31
 Package hyperref Info: Link coloring ON on input line 103.
 
-(/usr/share/texmf/tex/latex/hyperref/nameref.sty
+(c:/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/share/texmf/tex/generic/oberdiek/gettitlestring.sty
+(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count134
@@ -477,8 +476,8 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 103.
 LaTeX Info: Redefining \pageref on input line 103.
 LaTeX Info: Redefining \nameref on input line 103.
- (./Diplom.out)
-(./Diplom.out)
+
+(./Diplom.out) (./Diplom.out)
 \@outlinefile=\write3
 \openout3 = `Diplom.out'.
 
@@ -519,109 +518,132 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/share/texmf/tex/latex/ucs/data/uni-4.def
+(c:/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-4.def
 File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
 )
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 109.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 109.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 109.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 109.
+(babel)             in language  on input line 110.
  [1
 
-{/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 110.
+(babel)             in language  on input line 111.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 110.
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 113.
-<<ot1.cmap>>
-LaTeX Font Info:    Try loading font information for U+msa on input line 113.
-
-(/usr/share/texmf/tex/latex/amsfonts/umsa.fd
+(babel)             in language  on input line 111.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 116.
+<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
+LaTeX Font Info:    Try loading font information for U+msa on input line 116.
+ (c:/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 113.
+LaTeX Font Info:    Try loading font information for U+msb on input line 116.
 
-(/usr/share/texmf/tex/latex/amsfonts/umsb.fd
+(c:/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 113.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 116.
 
-(/usr/share/texmf/tex/latex/jknapltx/ursfs.fd
+(c:/texlive/2014/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 130.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 130.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 130.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 130.
  [2]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 122.
+(babel)             in language  on input line 131.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 122.
+(babel)             in language  on input line 131.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 131.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 128.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 128.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 131.
  [3]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 129.
+(babel)             in language  on input line 132.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 129.
+(babel)             in language  on input line 132.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 142.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 142.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 142.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 142.
+ [4]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 143.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 143.
 
+Underfull \hbox (badness 1331) in paragraph at lines 147--148
+[]\T2A/cmr/m/n/14.4 Мелкозернистый па-рал-ле-лизм на раз-лич-ных устрой-ствах о
+су-
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 154.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 154.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 154.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 154.
+[5]
 
 Package caption Warning: Unused \captionsetup[table] on input line 101.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 161.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 137.
+(babel)             in language  on input line 161.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 137.
+(babel)             in language  on input line 161.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 137.
+(babel)             in language  on input line 161.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 137.
-[4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
+(babel)             in language  on input line 161.
+[6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 161.
  (./Diplom.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 161.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 161.
 Package rerunfilecheck Info: File `Diplom.out' has not changed.
 (rerunfilecheck)             Checksum: 3691FF1B8CE6168EE3F5774991F337BC;705.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 137.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 161.
  ) 
 Here is how much of TeX's memory you used:
- 13971 strings out of 493315
- 194715 string characters out of 6145893
- 277246 words of memory out of 5000000
- 17252 multiletter control sequences out of 15000+600000
+ 14012 strings out of 493117
+ 196836 string characters out of 6138985
+ 281307 words of memory out of 5000000
+ 17293 multiletter control sequences out of 15000+600000
  9380 words of font info for 32 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
- 36i,5n,40p,2655b,618s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texmf
-/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf/fonts/type1/public
-/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12.p
-fb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texm
-f/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public
-/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.p
-fb>
-Output written on Diplom.pdf (4 pages, 86204 bytes).
+ 1141 hyphenation exceptions out of 8191
+ 36i,5n,40p,2740b,618s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2014
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2014/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2014/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/publi
+c/cm-super/sfbx1440.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/cm-super
+/sfrm1000.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1440.
+pfb>
+Output written on Diplom.pdf (6 pages, 98348 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 83 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
+ 45 words of extra memory for PDF output out of 10000 (max. 10000000)
 
