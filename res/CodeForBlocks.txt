@@ -1,0 +1,43 @@
+class Block {
+  # dimension
+  
+  # xCount
+  # yCount
+  # zCount
+  
+  # xOffset
+  # yOffset
+  # zOffset
+  
+  # deviceNumber
+  
+  
+  + isRealBlock()
+  
+  + prepareStageData()
+  
+  + computeStageBorder()
+  + computeStageCenter()
+  
+  + prepareArgument()
+  + confirmStep()
+  
+  + addNewBlockBorder()
+  + addNewExternalBorder()
+  
+  + {abstract} getCurrentState()
+  + {abstract} loadData()
+}
+
+class BlockCpu {
+}
+
+class BlockGpu {
+}
+
+class BlockNull {
+}
+
+Block <|-- BlockCpu
+Block <|-- BlockGpu
+Block <|-- BlockNull

@@ -1,0 +1,44 @@
+class Solver {
+  # mCount
+  # mState
+  
+  + {abstract} copyState()
+  + {abstract} getStageSource()
+  + {abstract} getStageResult()
+  + {abstract} getStageTimeStep()
+  + {abstract} prepareArgument()
+  + {abstract} confirmStep()
+  + {abstract} getStepError()
+  + {abstract} isFSAL()
+  + {abstract} isVariableStep()
+  + {abstract} getStageCount()
+  + {abstract} getNewStep()
+  + {abstract} isErrorPermissible()
+}
+
+class EulerSolver {
+}
+
+class RK4Solver {
+}
+
+class EulerSolverCpu {
+}
+
+class EulerSolverGpu {
+}
+
+class RK4SolverCpu {
+}
+
+class RK4SolverGpu {
+}
+
+Solver <|-- EulerSolver
+Solver <|-- RK4Solver
+
+EulerSolver <|-- EulerSolverCpu
+EulerSolver <|-- EulerSolverGpu
+
+RK4Solver <|-- RK4SolverCpu
+RK4Solver <|-- RK4SolverGpu

@@ -1,0 +1,16 @@
+class Domain {
+}
+
+class Block {
+}
+
+class Interconnect {
+}
+
+class Solver {
+}
+
+Domain "1" *-- "many" Block
+Domain "1" *-- "        many" Interconnect
+
+Block "1" *-- "1" Solver
