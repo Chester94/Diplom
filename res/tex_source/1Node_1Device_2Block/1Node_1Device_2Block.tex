@@ -1,0 +1,47 @@
+\documentclass[20pt,a4paper,landscape]{extbook}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\usepackage{amsmath,bm,times}
+\newcommand{\mx}[1]{\mathbf{\bm{#1}}} % Matrix command
+\newcommand{\vc}[1]{\mathbf{\bm{#1}}} % Vector command
+
+\begin{document}
+\pagestyle{empty}
+
+% We need layers to draw the block diagram
+\pgfdeclarelayer{background}
+\pgfdeclarelayer{foreground}
+\pgfsetlayers{background,main,foreground}
+
+% Define a few styles and constants
+\tikzstyle{sensor}=[draw, fill=blue!40, text width=5em, 
+    text centered, minimum height=2.5em]
+\tikzstyle{ann} = [above, text width=5em]
+\tikzstyle{naveqs} = [sensor, text width=6em, fill=red!20, 
+    minimum height=12em, rounded corners]
+\def\blockdist{2.3}
+\def\edgedist{2.5}
+
+\begin{tikzpicture}
+    \node (node1) {Node \#1};
+    \node (GPU1) [below of=node1, node distance=2.5em] {GPU \#1};
+	\node (block0) [sensor, below of=GPU1, node distance=2.5em] {Block \#0};    
+	\node (block1) [sensor, below of=block0, node distance=3em] {Block \#1};
+
+
+    \begin{pgfonlayer}{background}
+
+        \path (node1.north -| block1.west)+(-1, 0.5) node (a) {};
+        \path (block1.south -| block1.east)+(+1,-1) node (b) {};
+        \path[fill=blue!20, draw=black!50, solid]
+            (a) rectangle (b);
+        \path (GPU1.north -| block1.west)+(-0.5,0.5) node (a) {};
+        \path (block1.south -| block1.east)+(+0.5,-0.5) node (b) {};
+        \path[fill=blue!30, draw=black!50, solid]
+            (a) rectangle (b);
+    \end{pgfonlayer}
+\end{tikzpicture}
+
+
+\end{document}
