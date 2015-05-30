@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.7.2)  30 MAY 2015 22:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.7.2)  30 MAY 2015 22:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -366,8 +366,7 @@ braryintersections.code.tex
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.c
 ode.tex
 \pgf@intersect@solutions=\count109
-))
-No file 2Block_ex.aux.
+)) (./2Block_ex.aux)
 \openout1 = `2Block_ex.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -382,7 +381,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
-ABD: EveryShipout initializing macros
+ ABD: EveryShipout initializing macros
 (c:/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count110
@@ -439,15 +438,15 @@ e
 ]
 (./2Block_ex.aux) ) 
 Here is how much of TeX's memory you used:
- 12323 strings out of 493117
- 254844 string characters out of 6138985
+ 12327 strings out of 493117
+ 254924 string characters out of 6138985
  282767 words of memory out of 5000000
- 15573 multiletter control sequences out of 15000+600000
+ 15575 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,5n,56p,431b,523s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 2Block_ex.pdf (1 page, 1224 bytes).
+Output written on 2Block_ex.pdf (1 page, 1220 bytes).
 PDF statistics:
  11 PDF objects out of 1000 (max. 8388607)
  7 compressed objects within 1 object stream
