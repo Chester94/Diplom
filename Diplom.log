@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.7.2)  31 MAY 2015 21:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.7.2)  31 MAY 2015 21:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -801,19 +801,19 @@ File: res/1Node_1Device_2Block.png Graphic file (type png)
 Package pdftex.def Info: res/1Node_1Device_2Block.png used on input line 406.
 (pdftex.def)             Requested size: 95.6018pt x 137.34941pt.
 
-<res/1Node_2Device_2Block.png, id=201, 718.685pt x 418.56375pt>
+<res/1Node_2Device_2Block.png, id=201, 722.7pt x 426.59375pt>
 File: res/1Node_2Device_2Block.png Graphic file (type png)
 
 <use res/1Node_2Device_2Block.png>
 Package pdftex.def Info: res/1Node_2Device_2Block.png used on input line 410.
-(pdftex.def)             Requested size: 232.17851pt x 135.22047pt.
+(pdftex.def)             Requested size: 232.17851pt x 137.04654pt.
 
-<res/2Node_2Device_2Block.png, id=202, 810.02625pt x 467.7475pt>
+<res/2Node_2Device_2Block.png, id=202, 812.03375pt x 516.93124pt>
 File: res/2Node_2Device_2Block.png Graphic file (type png)
 
 <use res/2Node_2Device_2Block.png>
 Package pdftex.def Info: res/2Node_2Device_2Block.png used on input line 414.
-(pdftex.def)             Requested size: 273.14923pt x 157.73306pt.
+(pdftex.def)             Requested size: 273.14923pt x 173.87701pt.
 
 (c:/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-33.def
 File: uni-33.def 2013/05/13 UCS: Unicode data U+2100..U+21FF
@@ -1081,7 +1081,7 @@ texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/20
 14/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2014/texmf-d
 ist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2014/texmf-dist/fonts/
 type1/public/cm-super/sfti1440.pfb>
-Output written on Diplom.pdf (30 pages, 411520 bytes).
+Output written on Diplom.pdf (30 pages, 411413 bytes).
 PDF statistics:
  366 PDF objects out of 1000 (max. 8388607)
  296 compressed objects within 3 object streams

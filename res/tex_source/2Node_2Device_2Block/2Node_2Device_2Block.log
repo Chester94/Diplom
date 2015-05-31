@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.7.2)  30 MAY 2015 15:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.7.2)  31 MAY 2015 21:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -579,7 +579,7 @@ Here is how much of TeX's memory you used:
  55i,7n,67p,431b,534s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2014/texmf-dist/fonts/enc/dvips/base/
 8r.enc}<c:/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on 2Node_2Device_2Block.pdf (1 page, 10413 bytes).
+Output written on 2Node_2Device_2Block.pdf (1 page, 10564 bytes).
 PDF statistics:
  16 PDF objects out of 1000 (max. 8388607)
  11 compressed objects within 1 object stream
