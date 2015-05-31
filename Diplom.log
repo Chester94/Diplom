@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.7.2)  30 MAY 2015 23:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.7.2)  31 MAY 2015 14:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -429,24 +429,24 @@ File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )<<t2a.cmap>>)
 \openout1 = `Diplom.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
 <<ot1.cmap>> (c:/texlive/2014/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
@@ -480,7 +480,7 @@ e
 ))
 \c@lstlisting=\count133
 \AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring ON on input line 112.
+Package hyperref Info: Link coloring ON on input line 114.
 
 (c:/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -490,9 +490,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count134
 )
-LaTeX Info: Redefining \ref on input line 112.
-LaTeX Info: Redefining \pageref on input line 112.
-LaTeX Info: Redefining \nameref on input line 112.
+LaTeX Info: Redefining \ref on input line 114.
+LaTeX Info: Redefining \pageref on input line 114.
+LaTeX Info: Redefining \nameref on input line 114.
 
 (./Diplom.out) (./Diplom.out)
 \@outlinefile=\write3
@@ -538,30 +538,30 @@ Package caption Info: End \AtBeginDocument code.
 (c:/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-4.def
 File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
 )
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 135.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 137.
 <<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Try loading font information for U+msa on input line 135.
+LaTeX Font Info:    Try loading font information for U+msa on input line 137.
  (c:/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 135.
+LaTeX Font Info:    Try loading font information for U+msb on input line 137.
 
 (c:/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 135.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 137.
 
 (c:/texlive/2014/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 181.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 181.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 181.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 181.
  [1
 
 {c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Diplom.toc)
@@ -569,182 +569,431 @@ Package babel Info: Redefining russian shorthand "~
 \openout4 = `Diplom.toc'.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 185.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 185.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 185.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 185.
+(babel)             in language  on input line 187.
  [2
 
 
 ]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 191.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 191.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 191.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 191.
- [3
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
+\T2A/cmr/m/n/14.4 уравнений. К таким задачам можно отнести уравнение
+ []
 
-]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 191.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 191.
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 193.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 193.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 215.
+(babel)             in language  on input line 193.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 215.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 215.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 215.
- [4
+(babel)             in language  on input line 193.
+[3
 
 ]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 193.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 193.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 239.
+(babel)             in language  on input line 195.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 239.
+(babel)             in language  on input line 195.
+
+Underfull \hbox (badness 4739) in paragraph at lines 197--198
+[]\T2A/cmr/m/n/14.4 Как известно, в общем случае задачи реакции диффузии
+ []
+
+
+Underfull \hbox (badness 4168) in paragraph at lines 203--204
+\T2A/cmr/m/n/14.4 решения дифференциальных уравнений. Он относится к явным,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+[]\T2A/cmr/m/n/14.4 Коэффициенты $\OML/cmm/m/it/14.4 k[]$ \T2A/cmr/m/n/14.4 выч
+иляются, исходя из следующих
+ []
+
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 239.
+(babel)             in language  on input line 217.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 239.
- [5]
+(babel)             in language  on input line 217.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 217.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 217.
+[4
+
+]
+Underfull \hbox (badness 2726) in paragraph at lines 222--223
+[]\T2A/cmr/m/n/14.4 Количество коэффицентов $\OML/cmm/m/it/14.4 k[]$ \T2A/cmr/m
+/n/14.4 определяет порядок метода: к
+ []
+
+
+Underfull \hbox (badness 6961) in paragraph at lines 222--223
+\T2A/cmr/m/n/14.4 примеру, для четырехстадийной схемы Рунге-Кутты необходимо
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
+[]\T2A/cmr/m/n/14.4 Как правило, для
+ []
+
+
+Underfull \hbox (badness 6268) in paragraph at lines 236--237
+\T2A/cmr/m/n/14.4 влияние на точность и скорость производимых вычислений и,
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 238.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 238.
+
+Underfull \hbox (badness 2376) in paragraph at lines 240--241
+[]\T2A/cmr/m/n/14.4 Каждая конкретная задача диффузии, которая может быть
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 240--241
+\T2A/cmr/m/n/14.4 поставлена конечным пользователем, характеризуется нескольким
+и
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 240--241
+\T2A/cmr/m/n/14.4 параметрами. Во-первых, это уравнение (или система уравнений)
+,
+ []
+
+
+Underfull \hbox (badness 2503) in paragraph at lines 240--241
+\T2A/cmr/m/n/14.4 в которой этот процесс протекает. Назовем ее областью задачи.
+
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 240--241
+\T2A/cmr/m/n/14.4 При этом необходимо учитывать, что область задачи может быть
+ []
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 240--241
+\T2A/cmr/m/n/14.4 точках, а во втором - конкретные значения функции, заданные,
+ []
+
+
+Underfull \hbox (badness 2922) in paragraph at lines 240--241
+\T2A/cmr/m/n/14.4 В этом случае на данный участок блоков не распространяются
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 241.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 241.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 241.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 241.
+[5]
+Underfull \hbox (badness 2961) in paragraph at lines 242--243
+\T2A/cmr/m/n/14.4 обозначено пунктирной линией. Красным цветом выделена часть
+ []
+
+
+Underfull \hbox (badness 3769) in paragraph at lines 242--243
+\T2A/cmr/m/n/14.4 границы, на которой заданы условия Неймана с отрицательной
+ []
+
 <res/2Block_ex.png, id=127, 1537.745pt x 1537.745pt>
 File: res/2Block_ex.png Graphic file (type png)
  <use res/2Block_ex.png>
-Package pdftex.def Info: res/2Block_ex.png used on input line 243.
+Package pdftex.def Info: res/2Block_ex.png used on input line 245.
 (pdftex.def)             Requested size: 318.66948pt x 318.66553pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 258.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 258.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 258.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 258.
-[6]
-Overfull \hbox (6.58058pt too wide) in paragraph at lines 259--260
-[]\T2A/cmr/m/n/14.4 Ориентирванный на поль-зо-ва-те-ля про-грамм-ный про-дукт т
-ак-же дол-
+
+Underfull \hbox (badness 7238) in paragraph at lines 250--251
+[]\T2A/cmr/m/n/14.4 Последней составляющей, необходимой для начала работы
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
+\T2A/cmr/m/n/14.4 для расчетов мощности центрального процессора и видеокарт.
+ []
+
+
+Underfull \hbox (badness 5771) in paragraph at lines 259--260
+\T2A/cmr/m/n/14.4 Иерархическая организация памяти предполагает малые объемы
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 260.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 260.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 260.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 260.
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
+[]\T2A/cmr/m/n/14.4 В качестве языка
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 263--264
+\T2A/cmr/m/n/14.4 Кроме того язык C++ дает возможность низкоуровневой работы
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 263--264
+\T2A/cmr/m/n/14.4 с памятью, что позволять эффективно осуществлять оптимизацию
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 264.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 264.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 264.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 264.
 [7 <./res/2Block_ex.png>]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 264.
+(babel)             in language  on input line 266.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 264.
+(babel)             in language  on input line 266.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 264.
+(babel)             in language  on input line 266.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 264.
+(babel)             in language  on input line 266.
  [8]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 264.
+(babel)             in language  on input line 266.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 264.
+(babel)             in language  on input line 266.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 266.
+(babel)             in language  on input line 268.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 266.
+(babel)             in language  on input line 268.
 
-Overfull \hbox (36.3842pt too wide) in paragraph at lines 285--286
-\T2A/cmr/m/n/14.4 на-след-ни-ки вы-ше-опи-сан-ных клас-сов, а имен-но EulerSolv
-erCpu, EulerSolverGpu,
+Underfull \hbox (badness 3118) in paragraph at lines 270--271
+[]\T2A/cmr/m/n/14.4 Автоматизация вычислений дифференциальных уравнений, в
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
+[]\T2A/cmr/m/n/14.4 Метод Рунге-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
+[]\T2A/cmr/m/n/14.4 В процессе работы необходимо знать некоторую
+ []
+
+
+Underfull \hbox (badness 2689) in paragraph at lines 285--286
+\T2A/cmr/m/n/14.4 продолжать вычисления. Например, нужно знать сколько стадий
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 285--286
+\T2A/cmr/m/n/14.4 Подобную информацию содержат классы EukerSolver, RK4Solver и
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 285--286
+\T2A/cmr/m/n/14.4 в процессе вычислений: количество стадий, тип шага (постоянны
+й
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
+\T2A/cmr/m/n/14.4 наследники вышеописанных классов, а именно EulerSolverCpu,
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 286.
+(babel)             in language  on input line 288.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 286.
+(babel)             in language  on input line 288.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 286.
+(babel)             in language  on input line 288.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 286.
+(babel)             in language  on input line 288.
 [9
 
 ] <res/solvers.png, id=157, 444.91219pt x 426.09187pt>
 File: res/solvers.png Graphic file (type png)
  <use res/solvers.png>
-Package pdftex.def Info: res/solvers.png used on input line 292.
+Package pdftex.def Info: res/solvers.png used on input line 294.
 (pdftex.def)             Requested size: 455.24411pt x 435.9863pt.
 
-Overfull \hbox (36.07149pt too wide) in paragraph at lines 303--304
-[]\T2A/cmr/m/n/14.4 Рассмотрим по-дроб-нее ра-бо-ту дан-ных клас-сов на при-ме-
-ре RK4SolverCpu.
+Underfull \hbox (badness 5105) in paragraph at lines 305--306
+[]\T2A/cmr/m/n/14.4 Рассмотрим подробнее работу данных классов на примере
+ []
+
+
+Underfull \hbox (badness 8094) in paragraph at lines 305--306
+\T2A/cmr/m/n/14.4 RK4SolverCpu. Экземпляр данного класса фактически является
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 305--306
+\T2A/cmr/m/n/14.4 поле имеют все без исключения классы, реализующие различные
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 307--308
+\T2A/cmr/m/n/14.4 данных и их приемник, для этого используются описанные ранее
+ []
+
+
+Underfull \hbox (badness 3965) in paragraph at lines 307--308
+\T2A/cmr/m/n/14.4 переменные. Например, на первой стадии в качестве источника
+ []
+
+
+Underfull \hbox (badness 2799) in paragraph at lines 307--308
+\T2A/cmr/m/n/14.4 в mTempStore1. Стоит отметить, что сам объект не занимается
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 307--308
+\T2A/cmr/m/n/14.4 непосредственно вычислениями, это работа другого класса. Посл
+е
+ []
+
+
+Underfull \hbox (badness 5771) in paragraph at lines 307--308
+\T2A/cmr/m/n/14.4 каждой стадии метода выполняется функция prepareArgument(),
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 305.
+(babel)             in language  on input line 308.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 305.
+(babel)             in language  on input line 308.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 305.
+(babel)             in language  on input line 308.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 305.
+(babel)             in language  on input line 308.
 [10 <./res/solvers.png>]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 311.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 311.
+Underfull \hbox (badness 7722) in paragraph at lines 309--310
+[]\T2A/cmr/m/n/14.4 После того, как шаг метода выполнен, выполняется его
+ []
 
-Overfull \hbox (28.47469pt too wide) in paragraph at lines 317--318
-\T2A/cmr/m/n/14.4 вы-чис-ле-ние но-во-го со-сто-я-ния (computeStageCenter() и c
-omputeStageBorder()),
+
+Underfull \hbox (badness 1043) in paragraph at lines 309--310
+\T2A/cmr/m/n/14.4 методом с постоянным шагом и никогда не отвергает полученные
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 322.
+(babel)             in language  on input line 313.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 322.
+(babel)             in language  on input line 313.
+
+Underfull \hbox (badness 2547) in paragraph at lines 317--318
+\T2A/cmr/m/n/14.4 на каком типе устройства они будут выполняться. Например, к
+ []
+
+
+Underfull \hbox (badness 1721) in paragraph at lines 317--318
+\T2A/cmr/m/n/14.4 быть одномерным, двумерным или трехмерным в зависимости от
+ []
+
+
+Underfull \hbox (badness 4353) in paragraph at lines 319--320
+\T2A/cmr/m/n/14.4 которые описаны в классе Block. К таким методам относятся,
+ []
+
+
+Underfull \hbox (badness 5847) in paragraph at lines 319--320
+\T2A/cmr/m/n/14.4 например, вычисление нового состояния (computeStageCenter() и
+
+ []
+
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 322.
+(babel)             in language  on input line 321.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 322.
-[11] <res/blocks.png, id=171, 261.97874pt x 334.24875pt>
+(babel)             in language  on input line 321.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 321.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 321.
+[11] <res/blocks.png, id=170, 261.97874pt x 334.24875pt>
 File: res/blocks.png Graphic file (type png)
  <use res/blocks.png>
-Package pdftex.def Info: res/blocks.png used on input line 327.
+Package pdftex.def Info: res/blocks.png used on input line 329.
 (pdftex.def)             Requested size: 318.66948pt x 406.58942pt.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 339.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 339.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 339.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 339.
 
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
+[]\T2A/cmr/m/n/14.4 Первые два класса-наследника работают на
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 340.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 340.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 340.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 340.
 [12 <./res/blocks.png>]
+Underfull \hbox (badness 1448) in paragraph at lines 340--341
+\T2A/cmr/m/n/14.4 выполнить все функции, присущие блоку: получение координат и
+ []
+
+
+Underfull \hbox (badness 2990) in paragraph at lines 342--343
+[]\T2A/cmr/m/n/14.4 Отдельно стоит осветить вопрос пользовательских функций.
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 342--343
+\T2A/cmr/m/n/14.4 начальное состояние. Исходя из полученных данных формируется
+ []
+
+
+Underfull \hbox (badness 3601) in paragraph at lines 344--345
+\T2A/cmr/m/n/14.4 отличаться от алгоритма, который используется для внутренних
+ []
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 344--345
+\T2A/cmr/m/n/14.4 ячеек. Это обусловлено тем, что обычно новое состояние каждой
+
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 344--345
+\T2A/cmr/m/n/14.4 функций, которые ответственны за перерасчет конкретно данной
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 344--345
+\T2A/cmr/m/n/14.4 функций и формирование списка указателей на них. Индексы из
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 344--345
+\T2A/cmr/m/n/14.4 этого списка и заносятся в матрицу. Функция для любой ячейки
+ []
+
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 348.
+(babel)             in language  on input line 350.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 348.
+(babel)             in language  on input line 350.
+
+Underfull \hbox (badness 2443) in paragraph at lines 354--355
+\T2A/cmr/m/n/14.4 контексте рассмотрения класса для передачи информации между
+ []
+
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 355.
 Package babel Info: Redefining russian shorthand "~
@@ -753,229 +1002,581 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 355.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 355.
- [13]
-<res/1Node_1Device_2Block.png, id=185, 372.39125pt x 534.99875pt>
+[13] <res/1Node_1Device_2Block.png, id=185, 372.39125pt x 534.99875pt>
 File: res/1Node_1Device_2Block.png Graphic file (type png)
 
 <use res/1Node_1Device_2Block.png>
-Package pdftex.def Info: res/1Node_1Device_2Block.png used on input line 361.
+Package pdftex.def Info: res/1Node_1Device_2Block.png used on input line 363.
 (pdftex.def)             Requested size: 95.6018pt x 137.34941pt.
 
 <res/1Node_2Device_2Block.png, id=186, 718.685pt x 418.56375pt>
 File: res/1Node_2Device_2Block.png Graphic file (type png)
 
 <use res/1Node_2Device_2Block.png>
-Package pdftex.def Info: res/1Node_2Device_2Block.png used on input line 365.
+Package pdftex.def Info: res/1Node_2Device_2Block.png used on input line 367.
 (pdftex.def)             Requested size: 232.17851pt x 135.22047pt.
 
 <res/2Node_2Device_2Block.png, id=187, 810.02625pt x 467.7475pt>
 File: res/2Node_2Device_2Block.png Graphic file (type png)
 
 <use res/2Node_2Device_2Block.png>
-Package pdftex.def Info: res/2Node_2Device_2Block.png used on input line 369.
+Package pdftex.def Info: res/2Node_2Device_2Block.png used on input line 371.
 (pdftex.def)             Requested size: 273.14923pt x 157.73306pt.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 380.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 380.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 380.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 380.
- [14 <./res/1Node_1Device_2Block.png> <./res/1Node_2Device_2Block.png> <./res/2
-Node_2Device_2Block.png>]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 385.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 385.
 
-Overfull \hbox (10.77014pt too wide) in paragraph at lines 387--388
-[]\T2A/cmr/m/n/14.4 Главным управ-ля-ю-щим клас-сом при-ло-же-ния яв-ля-ет-ся к
-ласс Domain.
+Underfull \hbox (badness 5878) in paragraph at lines 377--378
+[]\T2A/cmr/m/n/14.4 В случае расположения блоков на одном вычислительном
  []
 
-<res/all.png, id=200, 240.9pt x 322.20375pt>
+
+Underfull \hbox (badness 1014) in paragraph at lines 377--378
+\T2A/cmr/m/n/14.4 устройстве проблема обеспечения доступа одного блока к данным
+,
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 377--378
+\T2A/cmr/m/n/14.4 складируемым другим, фактически отсутствует, так как в данной
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 380.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 380.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 380.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 380.
+[14 <./res/1Node_1Device_2Block.png> <./res/1Node_2Device_2Block.png> <./res/2N
+ode_2Device_2Block.png>]
+(c:/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-33.def
+File: uni-33.def 2013/05/13 UCS: Unicode data U+2100..U+21FF
+)
+Underfull \hbox (badness 10000) in paragraph at lines 381--382
+\T2A/cmr/m/n/14.4 используются для пересылки
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 381--382
+\T2A/cmr/m/n/14.4 потока, являющегося источником информации, то есть потока, к
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 381--382
+\T2A/cmr/m/n/14.4 на область памяти: первый - на массив данных, сформированный
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 387--388
+[]\T2A/cmr/m/n/14.4 указатель на область памяти, содержащей данные, которые
+ []
+
+
+Underfull \hbox (badness 3417) in paragraph at lines 388--389
+[]\T2A/cmr/m/n/14.4 указатель на область памяти, предназначенной для приема
+ []
+
+
+Underfull \hbox (badness 3525) in paragraph at lines 392--393
+[]\T2A/cmr/m/n/14.4 Все указанные данные необходимы для корректной работы
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 394--395
+\T2A/cmr/m/n/14.4 для обслуживания связи между парой блоков. Подобные объекты
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 395.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 395.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 395.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 395.
+[15]
+Underfull \hbox (badness 2735) in paragraph at lines 404--405
+[]\T2A/cmr/m/n/14.4 При вызове функции передачи / приема экземпляр класса
+ []
+
+
+Underfull \hbox (badness 5133) in paragraph at lines 411--412
+\T2A/cmr/m/n/14.4 потока-отправителя совпадает с номером потока-получателя, что
+
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 411--412
+\T2A/cmr/m/n/14.4 означает, что блоки располагаются в пределах одной машины, а,
+
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 411--412
+\T2A/cmr/m/n/14.4 пересылка как таковая не требуется. Второй случай выхода без
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 411--412
+\T2A/cmr/m/n/14.4 передачи возможен, если вызвавший поток не имеет отношения к
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 415.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 415.
+
+Underfull \hbox (badness 2980) in paragraph at lines 417--418
+[]\T2A/cmr/m/n/14.4 Главным управляющим классом приложения является класс
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 417--418
+\T2A/cmr/m/n/14.4 каждым потоком. Предполагается, что на одном вычислительном
+ []
+
+
+Underfull \hbox (badness 3240) in paragraph at lines 417--418
+\T2A/cmr/m/n/14.4 узле не запускается более одного потока. Подобное ограничение
+
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 417--418
+\T2A/cmr/m/n/14.4 устройстве. Кроме того очевидно, что все блоки располагаются 
+в
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 417--418
+\T2A/cmr/m/n/14.4 передача данных между блоками средствами библиотеки MPI не
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 417--418
+\T2A/cmr/m/n/14.4 сейчас рассматривается, передача информации будет осуществлят
+ь
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 418.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 418.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 418.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 418.
+[16] <res/all.png, id=220, 240.9pt x 322.20375pt>
 File: res/all.png Graphic file (type png)
  <use res/all.png>
-Package pdftex.def Info: res/all.png used on input line 391.
+Package pdftex.def Info: res/all.png used on input line 421.
 (pdftex.def)             Requested size: 250.38564pt x 334.90208pt.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 395.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 395.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 395.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 395.
- [15]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 396.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 396.
 
-<res/scheme.png, id=206, 1210.5225pt x 652.4375pt>
-File: res/scheme.png Graphic file (type png)
- <use res/scheme.png>
-Package pdftex.def Info: res/scheme.png used on input line 401.
-(pdftex.def)             Requested size: 455.24411pt x 245.36034pt.
+Underfull \hbox (badness 10000) in paragraph at lines 419--425
+\T2A/cmr/m/n/14.4 управление вычислениями, каждый на своем потоке. В
+ []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 409.
+(babel)             in language  on input line 426.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 409.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 409.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 409.
-[16 <./res/all.png>]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 415.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 415.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 415.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 415.
- [17 <./res/scheme.png>]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 420.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 420.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 420.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 420.
- [18]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 420.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 420.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 422.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 422.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 438.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 438.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 448.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 448.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 451.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 451.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 451.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 451.
- [19
+(babel)             in language  on input line 426.
+<res/scheme.png, id=222, 1210.5225pt x 652.4375pt>
+File: res/scheme.png Graphic file (type png)
+ <use res/scheme.png>
+Package pdftex.def Info: res/scheme.png used on input line 431.
+(pdftex.def)             Requested size: 455.24411pt x 245.36034pt.
 
-]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 438--439
+[]\T2A/cmr/m/n/14.4 Граничные элементы - это элементы, для вычисления новых
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 438--439
+\T2A/cmr/m/n/14.4 значений которых могут потребоваться данные от других блоков,
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 442.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 442.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 442.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 442.
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 442--443
+[]\T2A/cmr/m/n/14.4 Важной
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 442--443
+\T2A/cmr/m/n/14.4 пересылки и решение в конечном итоге окажется неверным. Для
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
+[]\T2A/cmr/m/n/14.4 После завершения
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 444--445
+\T2A/cmr/m/n/14.4 то брать информацию будут именно из этих массивов напрямую,
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 444--445
+\T2A/cmr/m/n/14.4 требует значительных временных затрат, которые вполне разумно
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 445.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 445.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 445.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 445.
+[18 <./res/all.png>]
+Underfull \hbox (badness 7379) in paragraph at lines 446--447
+[]\T2A/cmr/m/n/14.4 После того, как процессор завершил расчет центральных
+ []
+
+
+Underfull \hbox (badness 3417) in paragraph at lines 446--447
+\T2A/cmr/m/n/14.4 пересылки. Так как передача данных выполнялась асинхронным
+ []
+
+
+Underfull \hbox (badness 4859) in paragraph at lines 446--447
+\T2A/cmr/m/n/14.4 образом обязательно нужно убедиться, что действие завершено,
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 449.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 449.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 449.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 449.
+[19 <./res/scheme.png>]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 450.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 450.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 450.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 450.
+ [20]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 450.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 450.
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 452.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 452.
 
-Overfull \hbox (2.60892pt too wide) in paragraph at lines 460--461
-\T2A/cmr/m/n/14.4 стан-дарт-ные по-то-ки язы-ка C++, но по-доб-ный под-ход зна-
-чи-тель-но услож-
+Underfull \hbox (badness 10000) in paragraph at lines 454--455
+[]\T2A/cmr/m/n/14.4 Важной
  []
 
 
-Overfull \hbox (0.69882pt too wide) in paragraph at lines 464--465
-\T2A/cmr/m/n/14.4 ность бла-го-да-ря ис-поль-зо-ва-нию гра-фи-че-ских про-цес-с
-о-ров фир-мы Nvidia. 
+Underfull \hbox (badness 1776) in paragraph at lines 454--455
+\T2A/cmr/m/n/14.4 пользователя является пользовательский интерфейс. В его задач
+и
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 454--455
+\T2A/cmr/m/n/14.4 приостановка и завершение вычислений, визуализация полученных
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 456--457
+[]\T2A/cmr/m/n/14.4 Значимую роль в работе приложения играет программа
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 458--459
+[]\T2A/cmr/m/n/14.4 Наконец, параллельный фреймворк
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 465.
+(babel)             in language  on input line 468.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 465.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 465.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 465.
-[20]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 472.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 472.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 476.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 476.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 476.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 476.
- [21]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 476.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 476.
+(babel)             in language  on input line 468.
+
+Underfull \hbox (badness 6141) in paragraph at lines 472--473
+[]\T2A/cmr/m/n/14.4 Поговорим чуть подробнее о механизмах и инструментах,
+ []
+
+
+Underfull \hbox (badness 6708) in paragraph at lines 475--476
+[]\T2A/cmr/m/n/14.4 параллельные вычисление на устройстве - мелкозернистый
+ []
+
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 478.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 478.
+
+Underfull \hbox (badness 5217) in paragraph at lines 480--481
+\T2A/cmr/m/n/14.4 области на блоки и распределения блоков по вычислительным
+ []
+
+
+Underfull \hbox (badness 4505) in paragraph at lines 480--481
+\T2A/cmr/m/n/14.4 имеющиеся в наличии и равномерно распределять нагрузку на
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 480--481
+\T2A/cmr/m/n/14.4 подход позволяет увеличить скорость расчетов для небольших, п
+о
+ []
+
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 478.
+(babel)             in language  on input line 481.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 478.
- [22
+(babel)             in language  on input line 481.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 481.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 481.
+[21
 
 ]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 478.
+(babel)             in language  on input line 482.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 478.
+(babel)             in language  on input line 482.
+
+Underfull \hbox (badness 1681) in paragraph at lines 484--485
+[]\T2A/cmr/m/n/14.4 Мелкозернистый параллелизм осуществляется непосредственно
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 484--485
+\T2A/cmr/m/n/14.4 процессоре, и CUDA, в случае работы на видеокарте. Увеличение
+
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 484--485
+\T2A/cmr/m/n/14.4 производительности достигается путем параллельного вычисления
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--487
+[]\T2A/cmr/m/n/14.4 OpenMP реализует параллельные вычисления с
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 486--487
+\T2A/cmr/m/n/14.4 должно быть больше или равно количеству потоков). Количество
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 490--491
+\T2A/cmr/m/n/14.4 стандартные потоки языка C++, но подобный подход
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 491.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 491.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 491.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 491.
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 494--495
+[]\T2A/cmr/m/n/14.4 Как
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 496--497
+[]\T2A/cmr/m/n/14.4 CUDA SDK
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 496--497
+\T2A/cmr/m/n/14.4 диалекте языка программирования Си алгоритмы, выполнимые на
+ []
+
+
+Underfull \hbox (badness 3942) in paragraph at lines 498--499
+[]\T2A/cmr/m/n/14.4 При обработке блока на видеокарте каждая ячейка блока
+ []
+
+
+Underfull \hbox (badness 3590) in paragraph at lines 498--499
+\T2A/cmr/m/n/14.4 обрабатывается отдельным потоком. Каждый такой поток имеет
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 500--501
+[]\T2A/cmr/m/n/14.4 В качестве альтернативы CUDA можно рассмотреть
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 502.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 502.
+
+Underfull \hbox (badness 6125) in paragraph at lines 504--505
+\T2A/cmr/m/n/14.4 Interface (MPI, интерфейс передачи сообщений) - программный
+ []
+
+
+Underfull \hbox (badness 4492) in paragraph at lines 504--505
+\T2A/cmr/m/n/14.4 интерфейс (API) для передачи информации, который позволяет
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 504--505
+\T2A/cmr/m/n/14.4 задачу.
+ []
+
+
+Underfull \hbox (badness 2080) in paragraph at lines 504--505
+\T2A/cmr/m/n/14.4 MPI является наиболее распространјнным стандартом интерфейса
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 505.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 505.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 505.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 505.
+[23]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 506.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 506.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 506.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 506.
+ [24]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 506.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 506.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 508.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 508.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 508.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 508.
+ [25
+
+]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 508.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 508.
  (c:/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-(c:/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-33.def
-File: uni-33.def 2013/05/13 UCS: Unicode data U+2100..U+21FF
-)
+Underfull \hbox (badness 1231) in paragraph at lines 513--516
+[]\T2A/cmr/m/it/14.4 Круглов В.В., Борисов В.В.  \T2A/cmr/m/n/14.4 Искусственны
+е нейронные сети.
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 523--526
+[]\T2A/cmr/m/it/14.4 Колесов А.Ю., Колесов Ю.С.  \T2A/cmr/m/n/14.4 Релаксационн
+ые колебания в
+ []
+
+
+Underfull \hbox (badness 4060) in paragraph at lines 528--531
+[]\T2A/cmr/m/it/14.4 Глызин С.Д., Колесов А.Ю., Розов Н.Х.  \T2A/cmr/m/n/14.4 Р
+елаксационные
+ []
+
+
+Underfull \hbox (badness 4060) in paragraph at lines 533--536
+[]\T2A/cmr/m/it/14.4 Глызин С.Д., Колесов А.Ю., Розов Н.Х.  \T2A/cmr/m/n/14.4 Р
+елаксационные
+ []
+
+
+Underfull \hbox (badness 4060) in paragraph at lines 538--541
+[]\T2A/cmr/m/it/14.4 Глызин С.Д., Колесов А.Ю., Розов Н.Х.  \T2A/cmr/m/n/14.4 Р
+елаксационные
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 573--576
+\T2A/cmr/m/n/14.4 дифференциальных уравнений (метод Рунге-Кутта). Самара:
+ []
+
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 547.
+(babel)             in language  on input line 577.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 547.
+(babel)             in language  on input line 577.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 547.
+(babel)             in language  on input line 577.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 547.
- [23
+(babel)             in language  on input line 577.
+[26
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 583--586
+\T2A/cmr/m/n/14.4 системы и бифуркации векторных полей. Москва-Ижевск.:
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 588--591
+[]\T2A/cmr/m/it/14.4 Арнольд В.И.  \T2A/cmr/m/n/14.4 Дополнительные главы теори
+и обыкновенных
+ []
+
 
 Package caption Warning: Unused \captionsetup[table] on input line 106.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 566.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 596.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 566.
+(babel)             in language  on input line 596.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 566.
+(babel)             in language  on input line 596.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 566.
+(babel)             in language  on input line 596.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 566.
-[24]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 566.
+(babel)             in language  on input line 596.
+[27]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 596.
  (./Diplom.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 566.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 566.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 596.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 596.
 Package rerunfilecheck Info: File `Diplom.out' has not changed.
 (rerunfilecheck)             Checksum: EE31352B4947DBDCF5C6FBBD1B90B7F0;4090.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 566.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 596.
  ) 
 Here is how much of TeX's memory you used:
- 14939 strings out of 493117
- 210293 string characters out of 6138985
- 288642 words of memory out of 5000000
+ 14954 strings out of 493117
+ 210398 string characters out of 6138985
+ 287642 words of memory out of 5000000
  18113 multiletter control sequences out of 15000+600000
  13602 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -992,10 +1593,10 @@ texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/20
 14/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2014/texmf-d
 ist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2014/texmf-dist/fonts/
 type1/public/cm-super/sfti1440.pfb>
-Output written on Diplom.pdf (24 pages, 390911 bytes).
+Output written on Diplom.pdf (27 pages, 393987 bytes).
 PDF statistics:
- 329 PDF objects out of 1000 (max. 8388607)
- 267 compressed objects within 3 object streams
- 80 named destinations out of 1000 (max. 500000)
+ 356 PDF objects out of 1000 (max. 8388607)
+ 291 compressed objects within 3 object streams
+ 95 named destinations out of 1000 (max. 500000)
  197 words of extra memory for PDF output out of 10000 (max. 10000000)
 
