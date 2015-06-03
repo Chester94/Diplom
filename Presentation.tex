@@ -84,10 +84,10 @@ $$\frac{\partial u}{\partial t} = D \frac{\partial^2 u}{\partial x^2} + F(u);$$
 $$\left.{\frac{\partial u}{\partial x}} \right|_{x=0} = \left.{\frac{\partial u}{\partial x}} \right|_{x=1} = 0, F(0) = 0.$$
 
 
-Приближении оператора Лапласа его разностными аналогами
+Приближение оператора Лапласа его разностными аналогами
 
 $$\left.{\frac{\partial^2 u}{\partial x^2}}\right|_{x=x_j} = \frac{u_{j-1} - 2u_j + u_{j+1}}{\bigtriangleup^2};$$
-$$\dot u_j = D N^2(u_{j-1} - 2u_j + u_{j+1}) + F(u_j);$$
+$$\dot u_j = D\, \frac{u_{j-1} - 2u_j + u_{j+1}}{\bigtriangleup^2} + F(u_j);$$
 $$u_0 = u_1, u_{N+1} = u_N, j = \overline{1, N}.$$
 \end{frame}
 
