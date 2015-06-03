@@ -141,6 +141,24 @@ $$u_0 = u_1, u_{N+1} = u_N, j = \overline{1, N}.$$
 
 
 
+\begin{frame}{Параллельность}
+	\begin{itemize}
+		\item Крупнозернистый параллелизм -- разделение задачи на блоки
+		\item Мелкозернистый параллелизм
+		\begin{itemize}
+			\item Центральный процессор -- OpenMP
+			\item Видеокарта -- CUDA
+		\end{itemize}
+		
+		\item Передача данных между узлами кластера -- библиотека MPI
+	\end{itemize}
+\end{frame}
+
+
+
+
+
+
 \begin{frame}{Схема расчетов}
 	\begin{figure}[h]
 		\center{\includegraphics[width=1.0\linewidth]{scheme.png}}
