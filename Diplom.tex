@@ -211,9 +211,17 @@ citecolor = black
 8 источников.
 , ? прил. 
 
-\noindent\textbf{Мои ключевые слова}
+\noindent\textbf{OpenMP, MPI, CUDA, параллельные вычисления, диффузионные задачи}
 
-Мое описание
+
+\par Работа описывает реализацию части программного комплекса для моделирования диффузионных задач, отвечающую за параллельные вычисления. Рассматриваются теоретические основы численного решения задач "<реакция-диффузия">, а также формулируются требования к программного комплексу.
+
+\par Далее приводится описание архитектуры приложения и используемых классов. Кроме того рассматривается алгоритм параллельных вычислений.
+
+\par Автором работы был проведен анализ производительности на различных комбинациях устройств.
+
+
+
 
 %Содержание
 \tableofcontents
@@ -689,41 +697,27 @@ $$b_i > 1.$$
 \end{flushright}
 \addcontentsline{toc}{section}{Приложение А}
 
-%\begin{center}
-%\textbf{Диаграмма классов классификации}
-%\end{center}
-%
-%\center{\includegraphics[width=1\linewidth]{classification_scheme_of_classes_trim.png}}
+\begin{center}
+\textbf{Функция передачи данных между узлами}
+\end{center}
 
 \begin{lstlisting}
-svm_boost::svm_boost(const keypoint_list_lvset& kpl) {
-  ...
+// 
+void Interconnect::sendRecv(int locationNode) {
+	if(locationNode == sourceLocationNode && locationNode == destinationLocationNode)
+		return;
 
-  int len = kpl.len();
-  _dim = kpl.dim();
+	if(locationNode == sourceLocationNode) {
+		MPI_Isend(sourceBlockBorder, borderLength, MPI_DOUBLE, destinationLocationNode, 999, MPI_COMM_WORLD, request);
+		flag = true;
+		return;
+	}
 
-  svm_node **x = new svm_node*[len]; // List of points in training set
-  for (int i = 0; i < len; ++i) {
-    x[i] = new svm_node[_dim + 1]; // Point (with index i) of training set
-  }
-  double *y = new double[len]; // Classes of training set(integers for classification, starting with one)
-
-  for (int i = 0; i < len; i++) {
-    y[i] = kpl.loading(i);
-    for (int j = 0; j < _dim; j++) {
-      x[i][j].value = kpl.get(i, j);
-      x[i][j].index = j + 1;
-    }
-    x[i][_dim].index = -1;
-  }
-
-  // Move training set to svm_problem
-  _svm_problem = new svm_problem;
-  _svm_problem->l = len;
-  _svm_problem->y = y;
-  _svm_problem->x = x;
-	
-  ...
+	if(locationNode == destinationLocationNode) {
+		MPI_Irecv(destinationExternalBorder, borderLength, MPI_DOUBLE, sourceLocationNode, 999, MPI_COMM_WORLD, request);
+		flag = true;
+		return;
+	}
 }
 \end{lstlisting}
 
