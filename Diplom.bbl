@@ -28,6 +28,47 @@
 \newblock Т.~20, {№}~1.
 \newblock {С.}~30--51.{}
 
+\bibitem{CUDA}
+\selectlanguageifdefined{russian}
+Боресков А.~В.~Харламов А.~А. Основы работы с
+  технологией CUDA~// ДМК Пресс.
+\newblock 2010.
+\newblock {С.}~232.{}
+
+\bibitem{OpenMP}
+\selectlanguageifdefined{russian}
+С.~Антонов~А. Параллельное
+  программирование с использованием OpenMP~//
+  Изд-во МГУ.
+\newblock 2009.
+\newblock {С.}~77.{}
+
+\bibitem{MPI}
+\selectlanguageifdefined{russian}
+MPI implementation of parallel subdomain methods for linear and nonlinear
+  convection-diffusion problems~/ M.~Chau, D.~El~Baz, R.~Guivarch
+  {[и~др.]}~// Journal of Parallel and Distributed Computing.
+\newblock 2007.
+\newblock Т.~67, {№}~5.
+\newblock {С.}~581--591.{}
+
+\bibitem{MPI_CUDA}
+\selectlanguageifdefined{russian}
+Chou~Y.~C., Liao~W.~C. A hybrid iterative method based on MPI and CUDA for
+  steady-state solutions of markov chains~// Lecture Notes in Electrical
+  Engineering.
+\newblock 2014.
+\newblock Т. 293.
+\newblock {С.}~1055--1062.{}
+
+\bibitem{OpenMP_MPI}
+\selectlanguageifdefined{russian}
+Hybrid MPI/OpenMP/OpenACC implementations for the solution of
+  convection-diffusion equations with the HOPMOC method~/ F.L.~Cabral,
+  C.~Osthoff, M.~Kischinhevsky {[и~др.]}.
+\newblock 2014.
+\newblock {С.}~196--199.{}
+
 \bibitem{Thomas}
 \selectlanguageifdefined{russian}
 Thomas~J.~W. Numerical Partial Differential Equations: Finite Difference

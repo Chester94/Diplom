@@ -241,9 +241,7 @@ citecolor = black
 \par В связи с вышесказанным проблема автоматизации моделирования диффузионных процессов является достаточно актуальной. Конечно, и ранее появлялись отдельные программные продукты, позволяющие моделировать тот или иной конкретный процесс, то есть решать вполне определенную, заранее заданную краевую задачу типа "<реакция-диффузия">.
 
 \par Современный этап развития информатики и вычислительной техники позволяет подойти к решению этой задачи на более высоком уровне абстракции. Это означает, что можно создать программный комплекс, способный моделировать любою, заранее неизвестную, диффузионную задачу, конечно, при условии, что пользователь знает, какая математическая модель описывает этот процесс. Подобный комплекс позволит решать уже не одну конкретную, а множество задач из класса "<реакция-диффузия">. Этот программный комплекс должен обладать следующими качествами. Во-первых, высоким уровнем настраиваемости, то есть позволять пользователю задавать множество параметров: математическую модель, область задачи, точность вычислений, метод численного решения и другие. Во-вторых, программный комплекс должен работать эффективно, с высокой производительностью, в том числе на оборудовании с гибридной вычислительной системой и иерархической организацией памяти.
-
-\par С учетом вышеизложенного перед автором работы была поставлена задача разработать часть программного комплекса, отвечающую за повышение его производительности. Решение этой задачи лежит в области распределенных вычислений, то есть применения современных методов распараллеливания с целью увеличения скорости работы.
-
+\par С учетом вышеизложенного перед автором работы была поставлена задача разработать часть программного комплекса, отвечающую за повышение его производительности. Решение этой задачи лежит в области распределенных вычислений, то есть применения современных методов распараллеливания с целью увеличения скорости работы \cite{CUDA} \cite{OpenMP} \cite{MPI} \cite{MPI_CUDA} \cite{OpenMP_MPI}.
 
 
 
@@ -723,6 +721,109 @@ void Interconnect::sendRecv(int locationNode) {
 		return;
 	}
 }
+\end{lstlisting}
+
+
+
+
+
+\newpage
+
+\begin{flushright}
+Приложение Б
+\end{flushright}
+\addcontentsline{toc}{section}{Приложение Б}
+
+\begin{center}
+\textbf{Класс Block}
+\end{center}
+
+\begin{lstlisting}
+class Block {
+
+protected:
+	double* matrix;
+	double* newMatrix;
+
+	int length;
+	int width;
+
+	int lengthMove;
+	int widthMove;
+
+	int deviceNumber;
+
+	int nodeNumber;
+
+	int** sendBorderType;
+	int** receiveBorderType;
+
+	double** blockBorder;
+	int* blockBorderMove;
+	int* blockBorderMemoryAllocType;
+	std::vector<double*> tempBlockBorder;
+	std::vector<int> tempBlockBorderMove;
+	std::vector<int> tempBlockBorderMemoryAllocType;
+
+	double** externalBorder;
+	int* externalBorderMove;
+	int* externalBorderMemoryAllocType;
+	std::vector<double*> tempExternalBorder;
+	std::vector<int> tempExternalBorderMove;
+	std::vector<int> tempExternalBorderMemoryAllocType;
+	
+	int countSendSegmentBorder;
+	int countReceiveSegmentBorder;
+
+	bool checkValue(int side, int move);
+
+	void freeMemory(int memory_alloc_type, double* memory);
+	void freeMemory(int memory_alloc_type, int* memory);
+
+public:
+	Block(int _length, int _width, int _lengthMove, int _widthMove, int _nodeNumber, int _deviceNumber);
+	virtual ~Block();
+
+	virtual bool isRealBlock() { return false; }
+	
+	virtual void prepareData() { return; }
+
+	virtual void computeOneStep(double dX2, double dY2, double dT) { return; }
+
+	virtual void computeOneStepBorder(double dX2, double dY2, double dT) { return; }
+	virtual void computeOneStepCenter(double dX2, double dY2, double dT) { return; }
+
+	virtual void swapMatrix() {
+		double* tmp = matrix;
+		matrix = newMatrix;
+		newMatrix = tmp;
+	}
+
+	virtual int getBlockType() { return NULL_BLOCK; }
+
+	virtual void print() { return; }
+
+	virtual double* getCurrentState() { return NULL; }
+
+	int getLength() { return length; }
+	int getWidth() { return width; }
+
+	int getCountGridNodes() { return length * width; }
+
+	int getLengthMove() { return lengthMove; }
+	int getWidthMove() { return widthMove; }
+
+	int getDeviceNumber() { return deviceNumber; }
+
+	int getNodeNumber() { return nodeNumber; }
+
+	virtual double* addNewBlockBorder(Block* neighbor, int side, int move, int borderLength) { return NULL; }
+	virtual double* addNewExternalBorder(Block* neighbor, int side, int move, int borderLength, double* border) { return NULL; }
+
+	virtual void moveTempBorderVectorToBorderArray() { return; }
+
+	virtual void loadData(double* data) { return; }
+};
 \end{lstlisting}
 
 \end{document}
