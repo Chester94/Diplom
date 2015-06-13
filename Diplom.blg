@@ -1,0 +1,19 @@
+This is BibTeXu: a UTF-8 Big BibTeX version 0.99d
+Implementation:  Microsoft(R) C/C++ for Win32
+Release version: 3.71 (18 mar 2013)
+
+The 8-bit codepage and sorting file: 88591lat.csf
+The top-level auxiliary file: Diplom.aux
+The style file: utf8gost705u.bst
+Reallocated glb_str_ptr (elt_size=4) to 10 items from 0.
+Reallocated global_strs (elt_size=20001) to 10 items from 0.
+Reallocated glb_str_end (elt_size=4) to 10 items from 0.
+Database file #1: bibliography/refs.bib
+
+Here's how much of BibTeX's memory you used:
+ Cites:                 3 out of 750
+ Fields:               62 out of 5000
+ Hash table:        35083 out of 35307
+ Strings:             687 out of 35307
+ Free string pool:   5826 out of 65000
+ Wizard functions:   2964 out of 3000
