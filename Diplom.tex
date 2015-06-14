@@ -241,7 +241,7 @@ citecolor = black
 \par В связи с вышесказанным проблема автоматизации моделирования диффузионных процессов является достаточно актуальной. Конечно, и ранее появлялись отдельные программные продукты, позволяющие моделировать тот или иной конкретный процесс, то есть решать вполне определенную, заранее заданную краевую задачу типа "<реакция-диффузия">.
 
 \par Современный этап развития информатики и вычислительной техники позволяет подойти к решению этой задачи на более высоком уровне абстракции. Это означает, что можно создать программный комплекс, способный моделировать любою, заранее неизвестную, диффузионную задачу, конечно, при условии, что пользователь знает, какая математическая модель описывает этот процесс. Подобный комплекс позволит решать уже не одну конкретную, а множество задач из класса "<реакция-диффузия">. Этот программный комплекс должен обладать следующими качествами. Во-первых, высоким уровнем настраиваемости, то есть позволять пользователю задавать множество параметров: математическую модель, область задачи, точность вычислений, метод численного решения и другие. Во-вторых, программный комплекс должен работать эффективно, с высокой производительностью, в том числе на оборудовании с гибридной вычислительной системой и иерархической организацией памяти.
-\par С учетом вышеизложенного перед автором работы была поставлена задача разработать часть программного комплекса, отвечающую за повышение его производительности. Решение этой задачи лежит в области распределенных вычислений, то есть применения современных методов распараллеливания с целью увеличения скорости работы \cite{CUDA} \cite{OpenMP} \cite{MPI} \cite{MPI_CUDA} \cite{OpenMP_MPI}.
+\par С учетом вышеизложенного перед автором работы была поставлена задача разработать часть программного комплекса, отвечающую за повышение его производительности. Решение этой задачи лежит в области распределенных вычислений, то есть применения современных методов распараллеливания с целью увеличения скорости работы.% \cite{MPI} \cite{MPI_CUDA} \cite{OpenMP_MPI}.
 
 
 
@@ -377,7 +377,7 @@ $$b_i > 1.$$
 
 \par Обсуждая вопрос архитектуры системы, невозможно обойти одну из самых важных составляющих приложения - блоки. Область, над которой производятся вычисления, разбивается на составные части, называемые блоками. Для их представления используются класс Block и его потомки.
 
-\par Класс Block является абстрактным классом и необходим для описания свойств, которые присущи всем блокам независимо от того, на каком типе устройства они будут выполняться. Например, к таким свойствам можно отнести размерность. Каждый блок может быть одномерным, двумерным или трехмерным в зависимости от поставленной задачи. Кроме того каждый блок обладает определенными координатами в пространстве и размерами. Важной информацией о блоке также является тип устройства, на котором будет производится вычисление конкретно данного блока, и номер устройства. Хранение этих данных тоже предусмотрено в указанном классе.
+\par Класс Block является абстрактным классом и необходим для описания свойств, которые присущи всем блокам независимо от того, на каком типе устройства они будут выполняться (см. приложение Б). Например, к таким свойствам можно отнести размерность. Каждый блок может быть одномерным, двумерным или трехмерным в зависимости от поставленной задачи. Кроме того каждый блок обладает определенными координатами в пространстве и размерами. Важной информацией о блоке также является тип устройства, на котором будет производится вычисление конкретно данного блока, и номер устройства. Хранение этих данных тоже предусмотрено в указанном классе.
 
 \par Каждый блок должен обладать определенным набором методов, которые описаны в классе Block. К таким методам относятся, например, вычисление нового состояния (computeStageCenter() и computeStageBorder()), подготовка к новой стадии численного метода (prepareArgument()), подтверждение выполненного шага и другие. Все эти методы позволяют полноценно работать с блоком и осуществлять вычисления.
 
@@ -462,7 +462,7 @@ $$b_i > 1.$$
 
 \par Стоит обратить внимание, что блок №0 не имеет никакой связи с блоком №2, но при этом обслуживающий его поток создаст все четыре объекта, в том числе {№1 $\to$ №2} и {№2 $\to$ №1}. 
 
-\par При вызове функции передачи~/~приема экземпляр класса выполняет одно из следующих действий:
+\par При вызове функции передачи~/~приема (см. приложение А) экземпляр класса выполняет одно из следующих действий:
 \begin{enumerate}
 \item[1)] выход без передачи данных;
 \item[2)] отправка сообщения с данными;
@@ -554,7 +554,7 @@ $$b_i > 1.$$
 
 \par Предполагается, что потоки выполняются параллельно на машине с несколькими процессорами (количество процессоров не обязательно должно быть больше или равно количеству потоков). Количество создаваемых потоков может регулироваться как самой программой при помощи вызова библиотечных процедур, так и извне, при помощи переменных окружения.
 
-\par Библиотека OpenMP работает в системах с общей памятью, поэтому каждый поток имеет доступ ко всем данным блока. Например, при расчете двумерного случая прямоугольник "<разрезается"> на полосы, обработка которых осуществляется одновременно. Данная библиотека самостоятельно определяет количество таких полос и их ширину, основываясь на максимально возможном на данный момент количестве потоков.
+\par Библиотека OpenMP работает в системах с общей памятью, поэтому каждый поток имеет доступ ко всем данным блока. Например, при расчете двумерного случая прямоугольник "<разрезается"> на полосы, обработка которых осуществляется одновременно. Данная библиотека самостоятельно определяет количество таких полос и их ширину, основываясь на максимально возможном на данный момент количестве потоков \cite{OpenMP}.
 
 \par В качестве аналога данной библиотеки можно было использовать стандартные потоки языка C++, но подобный подход значительно усложнил бы разработку и увеличил вероятность ошибки. OpenMP обладает всеми необходимыми инструментами для реализации многопоточности на центральном процессоре в рамках одной машины и достаточно проста в использовании.
 
@@ -562,7 +562,7 @@ $$b_i > 1.$$
 
 \par CUDA SDK позволяет программистам реализовывать на специальном упрощённом диалекте языка программирования C алгоритмы, выполнимые на графических процессорах Nvidia, и включать специальные функции в текст программы на C и C++. Архитектура CUDA даёт разработчику возможность по своему усмотрению организовывать доступ к набору инструкций графического ускорителя и управлять его памятью.
 
-\par При обработке блока на видеокарте каждая ячейка блока обрабатывается отдельным потоком. Каждый такой поток имеет необходимый доступ к данным.
+\par При обработке блока на видеокарте каждая ячейка блока обрабатывается отдельным потоком. Каждый такой поток имеет необходимый доступ к данным \cite{CUDA}.
 
 \par В качестве альтернативы CUDA можно рассмотреть OpenCL. Данный фреймворк для работы с графическими процессорами также предоставляет необходимые инструменты. Но так как CUDA разработана компанией Nvidia специально для своих видеокарт, она демонстрирует лучшие показатели производительности на видеокартах данной торговой марки по сравнению с использованием OpenCL. Поскольку на вычислительные кластеры ставят подобные видеокарты, в качестве инструмента работы с графическими адаптерами была выбрана именно CUDA.
 
@@ -704,17 +704,20 @@ $$b_i > 1.$$
 \end{center}
 
 \begin{lstlisting}
-// 
+// Function for sending and receiving data
 void Interconnect::sendRecv(int locationNode) {
+	// Devices are located on the same node
 	if(locationNode == sourceLocationNode && locationNode == destinationLocationNode)
 		return;
-
+		
+	// This thread should send the information
 	if(locationNode == sourceLocationNode) {
 		MPI_Isend(sourceBlockBorder, borderLength, MPI_DOUBLE, destinationLocationNode, 999, MPI_COMM_WORLD, request);
 		flag = true;
 		return;
 	}
 
+	// This thread should receive the information
 	if(locationNode == destinationLocationNode) {
 		MPI_Irecv(destinationExternalBorder, borderLength, MPI_DOUBLE, sourceLocationNode, 999, MPI_COMM_WORLD, request);
 		flag = true;
@@ -742,87 +745,133 @@ void Interconnect::sendRecv(int locationNode) {
 class Block {
 
 protected:
-	double* matrix;
-	double* newMatrix;
+	Solver* mSolver;
 
-	int length;
-	int width;
+	int dimension;
 
-	int lengthMove;
-	int widthMove;
+	int xCount;
+	int yCount;
+	int zCount;
+
+	int xOffset;
+	int yOffset;
+	int zOffset;
+
+	unsigned short int* mCompFuncNumber;
+
+	int cellSize;
+	int haloSize;
 
 	int deviceNumber;
 
 	int nodeNumber;
 
-	int** sendBorderType;
-	int** receiveBorderType;
+	int* sendBorderInfo;
+	std::vector<int> tempSendBorderInfo;
+
+	int* receiveBorderInfo;
+	std::vector<int> tempReceiveBorderInfo;
 
 	double** blockBorder;
-	int* blockBorderMove;
 	int* blockBorderMemoryAllocType;
 	std::vector<double*> tempBlockBorder;
-	std::vector<int> tempBlockBorderMove;
 	std::vector<int> tempBlockBorderMemoryAllocType;
 
 	double** externalBorder;
-	int* externalBorderMove;
 	int* externalBorderMemoryAllocType;
 	std::vector<double*> tempExternalBorder;
-	std::vector<int> tempExternalBorderMove;
 	std::vector<int> tempExternalBorderMemoryAllocType;
-	
+
 	int countSendSegmentBorder;
 	int countReceiveSegmentBorder;
-
-	bool checkValue(int side, int move);
 
 	void freeMemory(int memory_alloc_type, double* memory);
 	void freeMemory(int memory_alloc_type, int* memory);
 
+	virtual void prepareBorder(int borderNumber, int zStart, int zStop, int yStart, int yStop, int xStart, int xStop) = 0;
+
+	virtual void computeStageCenter_1d(int stage, double time) = 0;
+	virtual void computeStageCenter_2d(int stage, double time) = 0;
+	virtual void computeStageCenter_3d(int stage, double time) = 0;
+
+	virtual void computeStageBorder_1d(int stage, double time) = 0;
+	virtual void computeStageBorder_2d(int stage, double time) = 0;
+	virtual void computeStageBorder_3d(int stage, double time) = 0;
+
+	virtual void createSolver(int solverIdx,
+		double _aTol, double _rTol) = 0;
+
+	virtual double* getNewBlockBorder(Block* neighbor,
+		int borderLength, int& memoryType) = 0;
+		
+	virtual double* getNewExternalBorder(Block* neighbor,
+		int borderLength, double* border, int& memoryType) = 0;
+
+	func_ptr_t* mUserFuncs;
+	initfunc_fill_ptr_t* mUserInitFuncs;
+	double* mParams;
+	int mParamsCount;
+
 public:
-	Block(int _length, int _width, int _lengthMove, int _widthMove, int _nodeNumber, int _deviceNumber);
+	Block(int _dimension, int _xCount, int _yCount, int _zCount,
+			int _xOffset, int _yOffset, int _zOffset,
+			int _nodeNumber, int _deviceNumber,
+			int _haloSize, int _cellSize);
+
 	virtual ~Block();
 
-	virtual bool isRealBlock() { return false; }
-	
-	virtual void prepareData() { return; }
+	virtual bool isRealBlock() = 0;
 
-	virtual void computeOneStep(double dX2, double dY2, double dT) { return; }
+	virtual void initSolver() { return; }
 
-	virtual void computeOneStepBorder(double dX2, double dY2, double dT) { return; }
-	virtual void computeOneStepCenter(double dX2, double dY2, double dT) { return; }
+	void prepareStageData(int stage);
 
-	virtual void swapMatrix() {
-		double* tmp = matrix;
-		matrix = newMatrix;
-		newMatrix = tmp;
+	void computeStageBorder(int stage, double time);
+	void computeStageCenter(int stage, double time);
+
+	void prepareArgument(int stage, double timestep );
+
+	double getSolverStepError(double timeStep) {
+		return mSolver != NULL ? mSolver->getStepError(timeStep) : 0.0;
 	}
 
-	virtual int getBlockType() { return NULL_BLOCK; }
+	void confirmStep(double timestep);
+	void rejectStep(double timestep);
 
-	virtual void print() { return; }
+	virtual int getBlockType() = 0;
 
-	virtual double* getCurrentState() { return NULL; }
+	virtual void print() = 0;
 
-	int getLength() { return length; }
-	int getWidth() { return width; }
+	virtual void getCurrentState(double* result) = 0;
 
-	int getCountGridNodes() { return length * width; }
+	int getXCount() { return xCount; }
+	int getYCount() { return yCount; }
+	int getZCount() { return zCount; }
 
-	int getLengthMove() { return lengthMove; }
-	int getWidthMove() { return widthMove; }
+	int getXOffset() { return xOffset; }
+	int getYOffset() { return yOffset; }
+	int getZOffset() { return zOffset; }
+
+	int getGridNodeCount();
+	int getGridElementCount();
 
 	int getDeviceNumber() { return deviceNumber; }
-
 	int getNodeNumber() { return nodeNumber; }
 
-	virtual double* addNewBlockBorder(Block* neighbor, int side, int move, int borderLength) { return NULL; }
-	virtual double* addNewExternalBorder(Block* neighbor, int side, int move, int borderLength, double* border) { return NULL; }
+	int getDimension() { return dimension; }
 
-	virtual void moveTempBorderVectorToBorderArray() { return; }
+	void setFunctionNumber(unsigned short int* functionNumberData ) { return; }
 
-	virtual void loadData(double* data) { return; }
+	double* addNewBlockBorder(Block* neighbor, int side,
+		int mOffset, int nOffset, int mLength, int nLength);
+		
+	double* addNewExternalBorder(Block* neighbor, int side,
+		int mOffset, int nOffset,
+		int mLength, int nLength, double* border);
+
+	virtual void moveTempBorderVectorToBorderArray() = 0;
+
+	virtual void loadData(double* data) = 0;
 };
 \end{lstlisting}
 

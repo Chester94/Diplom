@@ -9,13 +9,11 @@ Reallocated glb_str_ptr (elt_size=4) to 10 items from 0.
 Reallocated global_strs (elt_size=20001) to 10 items from 0.
 Reallocated glb_str_end (elt_size=4) to 10 items from 0.
 Database file #1: bibliography/refs.bib
-Warning--empty booktitle in OpenMP_MPI
 
 Here's how much of BibTeX's memory you used:
- Cites:                 8 out of 750
- Fields:              212 out of 5000
- Hash table:        35081 out of 35307
- Strings:             723 out of 35307
- Free string pool:   6843 out of 65000
+ Cites:                 5 out of 750
+ Fields:              122 out of 5000
+ Hash table:        35082 out of 35307
+ Strings:             701 out of 35307
+ Free string pool:   6118 out of 65000
  Wizard functions:   2964 out of 3000
-(There was 1 warning)
