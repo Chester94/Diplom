@@ -207,18 +207,17 @@ citecolor = black
 %Реферат
 \section*{Реферат}
 \noindent Объем \pageref*{LastPage}~с., 
-\totsections~гл., \totfig~рис., \tottab~табл., 
-8 источников.
-, ? прил. 
+\totsections~гл., \totfig~рис., 
+5 источников, 2 прил. 
 
 \noindent\textbf{OpenMP, MPI, CUDA, параллельные вычисления, диффузионные задачи}
 
 
 \par Работа описывает реализацию части программного комплекса для моделирования диффузионных задач, отвечающую за параллельные вычисления. Рассматриваются теоретические основы численного решения задач "<реакция-диффузия">, а также формулируются требования к программного комплексу.
 
-\par Далее приводится описание архитектуры приложения и используемых классов. Кроме того рассматривается алгоритм параллельных вычислений.
+\par В работе приводится описание архитектуры приложения и используемых классов, а также рассматривается алгоритм параллельных вычислений, применяемый в программном комплексе.
 
-\par Автором работы был проведен анализ производительности на различных комбинациях устройств.
+\par Автором работы проведен анализ производительности на различных комбинациях устройств.
 
 
 
@@ -377,7 +376,7 @@ $$b_i > 1.$$
 
 \par Обсуждая вопрос архитектуры системы, невозможно обойти одну из самых важных составляющих приложения - блоки. Область, над которой производятся вычисления, разбивается на составные части, называемые блоками. Для их представления используются класс Block и его потомки.
 
-\par Класс Block является абстрактным классом и необходим для описания свойств, которые присущи всем блокам независимо от того, на каком типе устройства они будут выполняться (см. приложение Б). Например, к таким свойствам можно отнести размерность. Каждый блок может быть одномерным, двумерным или трехмерным в зависимости от поставленной задачи. Кроме того каждый блок обладает определенными координатами в пространстве и размерами. Важной информацией о блоке также является тип устройства, на котором будет производится вычисление конкретно данного блока, и номер устройства. Хранение этих данных тоже предусмотрено в указанном классе.
+\par Класс Block является абстрактным классом и необходим для описания свойств, которые присущи всем блокам независимо от того, на каком типе устройства они будут выполняться (см. приложение А). Например, к таким свойствам можно отнести размерность. Каждый блок может быть одномерным, двумерным или трехмерным в зависимости от поставленной задачи. Кроме того каждый блок обладает определенными координатами в пространстве и размерами. Важной информацией о блоке также является тип устройства, на котором будет производится вычисление конкретно данного блока, и номер устройства. Хранение этих данных тоже предусмотрено в указанном классе.
 
 \par Каждый блок должен обладать определенным набором методов, которые описаны в классе Block. К таким методам относятся, например, вычисление нового состояния (computeStageCenter() и computeStageBorder()), подготовка к новой стадии численного метода (prepareArgument()), подтверждение выполненного шага и другие. Все эти методы позволяют полноценно работать с блоком и осуществлять вычисления.
 
@@ -462,7 +461,7 @@ $$b_i > 1.$$
 
 \par Стоит обратить внимание, что блок №0 не имеет никакой связи с блоком №2, но при этом обслуживающий его поток создаст все четыре объекта, в том числе {№1 $\to$ №2} и {№2 $\to$ №1}. 
 
-\par При вызове функции передачи~/~приема (см. приложение А) экземпляр класса выполняет одно из следующих действий:
+\par При вызове функции передачи~/~приема (см. приложение Б) экземпляр класса выполняет одно из следующих действий:
 \begin{enumerate}
 \item[1)] выход без передачи данных;
 \item[2)] отправка сообщения с данными;
@@ -700,44 +699,6 @@ $$b_i > 1.$$
 \addcontentsline{toc}{section}{Приложение А}
 
 \begin{center}
-\textbf{Функция передачи данных между узлами}
-\end{center}
-
-\begin{lstlisting}
-// Function for sending and receiving data
-void Interconnect::sendRecv(int locationNode) {
-	// Devices are located on the same node
-	if(locationNode == sourceLocationNode && locationNode == destinationLocationNode)
-		return;
-		
-	// This thread should send the information
-	if(locationNode == sourceLocationNode) {
-		MPI_Isend(sourceBlockBorder, borderLength, MPI_DOUBLE, destinationLocationNode, 999, MPI_COMM_WORLD, request);
-		flag = true;
-		return;
-	}
-
-	// This thread should receive the information
-	if(locationNode == destinationLocationNode) {
-		MPI_Irecv(destinationExternalBorder, borderLength, MPI_DOUBLE, sourceLocationNode, 999, MPI_COMM_WORLD, request);
-		flag = true;
-		return;
-	}
-}
-\end{lstlisting}
-
-
-
-
-
-\newpage
-
-\begin{flushright}
-Приложение Б
-\end{flushright}
-\addcontentsline{toc}{section}{Приложение Б}
-
-\begin{center}
 \textbf{Класс Block}
 \end{center}
 
@@ -873,6 +834,49 @@ public:
 
 	virtual void loadData(double* data) = 0;
 };
+\end{lstlisting}
+
+
+
+
+
+
+
+
+
+
+\newpage
+
+\begin{flushright}
+Приложение Б
+\end{flushright}
+\addcontentsline{toc}{section}{Приложение Б}
+
+\begin{center}
+\textbf{Функция передачи данных между узлами}
+\end{center}
+
+\begin{lstlisting}
+// Function for sending and receiving data
+void Interconnect::sendRecv(int locationNode) {
+	// Devices are located on the same node
+	if(locationNode == sourceLocationNode && locationNode == destinationLocationNode)
+		return;
+		
+	// This thread should send the information
+	if(locationNode == sourceLocationNode) {
+		MPI_Isend(sourceBlockBorder, borderLength, MPI_DOUBLE, destinationLocationNode, 999, MPI_COMM_WORLD, request);
+		flag = true;
+		return;
+	}
+
+	// This thread should receive the information
+	if(locationNode == destinationLocationNode) {
+		MPI_Irecv(destinationExternalBorder, borderLength, MPI_DOUBLE, sourceLocationNode, 999, MPI_COMM_WORLD, request);
+		flag = true;
+		return;
+	}
+}
 \end{lstlisting}
 
 \end{document}
