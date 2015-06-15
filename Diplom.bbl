@@ -9,7 +9,7 @@
 
 \bibitem{GlyzinSD_1}
 \selectlanguageifdefined{russian}
-С. Д.~Глызин~П. Л.~Шокин. Диффузионный хаос в
+Глызин С.~Д.~Шокин П.~Л. Диффузионный хаос в
   задаче "<реакция–диффузия"> c
   гантелеобразной областью определения
   пространственной переменной~//
@@ -18,6 +18,14 @@
 \newblock 2013.
 \newblock Т.~20, {№}~3.
 \newblock {С.}~43--57.{}
+
+\bibitem{GlyzinSD_3}
+\selectlanguageifdefined{russian}
+Glyzin~S.~D. Dimensional characteristics of diffusion chaos~// Automatic
+  Control and Computer Sciences.
+\newblock 2013.
+\newblock Т.~47.
+\newblock {С.}~452--469.{}
 
 \bibitem{GlyzinSD_2}
 \selectlanguageifdefined{russian}
@@ -28,17 +36,25 @@
 \newblock Т.~20, {№}~1.
 \newblock {С.}~30--51.{}
 
+\bibitem{GlyzinSD_4}
+\selectlanguageifdefined{russian}
+Glyzin S.~D.~Kolesov A.~Yu.~Rozov N.~Kh. Finite-dimensional models of diffusion
+  chaos~// Computational Mathematics and Mathematical Physics.
+\newblock 2010.
+\newblock Т.~50.
+\newblock {С.}~816--830.{}
+
 \bibitem{Thomas}
 \selectlanguageifdefined{russian}
 Thomas~J.~W. Numerical Partial Differential Equations: Finite Difference
   Methods~// Texts in Applied Mathematics.
 \newblock 1995.
 \newblock Т.~22, {№}~1.
-\newblock {С.}~!!!{}
+\newblock {С.}~426.{}
 
 \bibitem{OpenMP}
 \selectlanguageifdefined{russian}
-С.~Антонов~А. Параллельное
+Антонов~А.~С. Параллельное
   программирование с использованием OpenMP~//
   Изд-во МГУ.
 \newblock 2009.
