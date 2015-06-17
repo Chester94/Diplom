@@ -10,8 +10,8 @@
 % Стиль презентации
 \usetheme{Warsaw}
 
-  \setbeamertemplate{background canvas}
-    [vertical shading][top=blue!70, bottom=gray!10]
+%\setbeamertemplate{background canvas}
+%	[vertical shading][top=blue!70, bottom=gray!10]
 
 
 \beamertemplatenavigationsymbolsempty
@@ -89,7 +89,7 @@ $$u_0 = u_1,~u_{N+1} = u_N,~j = \overline{1, N}.$$
 
 \begin{frame}{Класс Solver и его наследники}
 	\begin{figure}[h]
-		\center{\includegraphics[width=0.7\linewidth]{solvers_tr.png}}
+		\center{\includegraphics[width=0.7\linewidth]{solvers.png}}
 		\label{ris:solvers}
 	\end{figure}
 \end{frame}
@@ -99,7 +99,7 @@ $$u_0 = u_1,~u_{N+1} = u_N,~j = \overline{1, N}.$$
 
 \begin{frame}{Класс Block и его наследники}
 	\begin{figure}[h]
-		\center{\includegraphics[width=0.6\linewidth]{blocks_tr.png}}
+		\center{\includegraphics[width=0.6\linewidth]{blocks.png}}
 		\label{ris:blocks}
 	\end{figure}
 \end{frame}
@@ -110,7 +110,7 @@ $$u_0 = u_1,~u_{N+1} = u_N,~j = \overline{1, N}.$$
 
 \begin{frame}{Общая схема классов приложения}
 	\begin{figure}[h]
-		\center{\includegraphics[width=0.6\linewidth]{all_tr.png}}
+		\center{\includegraphics[width=0.6\linewidth]{all.png}}
 		\label{ris:all}
 	\end{figure}
 \end{frame}
@@ -142,13 +142,30 @@ $$u_0 = u_1,~u_{N+1} = u_N,~j = \overline{1, N}.$$
 
 \begin{frame}{Схема расчетов}
 	\begin{figure}[h]
-		\center{\includegraphics[width=1.0\linewidth]{scheme_tr.png}}
+		\center{\includegraphics[width=1.0\linewidth]{scheme.png}}
 		\label{ris:scheme}
 	\end{figure}
 \end{frame}
 
 
+\begin{frame}{Результаты тестирования}
+	\begin{itemize}
+		\item Оборудование узла: 2xCPU E5-2690 (8 ядер, 2.9ГГц), 3хGPU Tesla M2090 
+		
+		\vspace{0.7cm}		
+		
+		\item Устройство для передачи данных: Infiniband QDR 40Gbps
 
+		\vspace{0.7cm}
+
+		\item ПО: SLES 12, gcc 4.8,  Mellanox OFED 2.4, OpenMPI 1.8, CUDA Toolkit 7.0, SLURM 14.11 
+
+	\end{itemize}
+	
+	\vspace{0.7cm}
+	
+В дальнейшем 2 центральных процессора (16 ядер) в рамках одного узла используются как единое вычислительное устройство, обозначенное CPU.
+\end{frame}
 
 
 \begin{frame}{Результаты тестирования}
